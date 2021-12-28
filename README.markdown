@@ -1,5 +1,9 @@
+
+### This is a changed version by vitusb in 2021/09
+### This version was changed to create crt-DER encoded files for ROOT-store support of GnuPG2's "trustlist.txt" of "Gpg4Win / GnuPG VS-Desktop" with some additional UTF-8 character transcodings.<br><br>
+
 Extracting Mozilla's Root Certificates
-======================================
+______________________________________
 
 When people need a list of root certificates, they often turn to Mozilla's. However, Mozilla doesn't produce a nice list of PEM encoded certificate, rather they keep them in a form which is convenient for NSS to build from:
 
